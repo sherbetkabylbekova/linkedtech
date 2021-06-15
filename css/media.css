@@ -1,0 +1,273 @@
+@media (max-width: 1200px){
+    .container{
+        max-width: 850px;
+    }
+    .title-hero {
+        font-size: 46px;
+        line-height: 59px;
+    }
+    .span-title {
+        font-weight: 600;
+        font-size: 46px;
+        line-height: 59px;
+    }
+    .menu-link {
+        font-weight: 500;
+        font-size: 13px;
+    }
+    ul li:not(:last-child){
+        margin-right: 35px;
+    }
+    .btn-hero {
+        padding: 10px 35px;
+    }
+    .price {
+        font-size: 18px;
+        margin: 0 15px 0 23px;
+
+}
+@media (max-width: 992px) {
+    .container {
+        max-width: 700px;
+    }
+
+    .hero {
+        padding: 63px 0 76px;
+    }
+
+    .menu-bar {
+        display: none;
+    }
+
+    .title-hero {
+        font-size: 39px;
+        line-height: 55px;
+    }
+
+    .span-title {
+        font-size: 39px;
+        line-height: 44px;
+    }
+    .mobile-img {
+        width: 100%;
+    }
+
+    .hero-info {
+        line-height: 15px;
+        font-size: 13px;
+    }
+
+    .desc-hero {
+        font-size: 18px;
+        line-height: 22px;
+        margin: 13px 0;
+    }
+
+    .btn-hero {
+        line-height: 17px;
+        font-size: 11px;
+        padding: 9px 22px;
+    }
+
+    .price {
+        font-size: 16px;
+        line-height: 20px;
+        margin: 5px 9px 0 17px;
+    }
+
+    .price-span {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .burger-menu {
+        display: inline-block;
+        margin-left: 325px;
+    }
+
+    .header-icon:not(:last-child) {
+        margin-right: 25px;
+    }
+    .hero-span {
+        display: block;
+    }
+    .image img {
+        max-width: 45%
+    }
+    img {
+        width: 140px;
+    }
+    .shop{
+        display: block;
+    }
+    .product-title {
+        font-size: 21px;
+    }
+    .product-price {
+        font-size: 14px;
+    }
+    .product-title {
+        font-size: 21px;
+    }
+    .product-desc {
+        font-size: 12px;
+        line-height: 17px;
+        margin: 0 0 10px;
+    }
+    .recent-product {
+        padding: 46px 0 100px;
+    }
+    .col-6 .row .col-6{
+    width: 100%;
+    }
+
+    .cart-before{
+        position: absolute;
+        right: 70px;
+        top: -23px;
+    }
+    .box-product{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .product-title{
+        text-align: center;
+    }
+    .product-desc{
+        text-align: center;
+    }
+}
+
+}
+@media (max-width:768px){
+    .container{
+        max-width: 540px;
+    }
+    img {
+        width: 120px;
+    }
+    .hero-info {
+        line-height: 11px;
+        font-size: 11px;
+    }
+    .header-icons{
+        display: none;
+    }
+    .title-hero {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .span-title {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .desc-hero {
+        font-size: 13px;
+        line-height: 18px;
+        margin: 10px 0;
+    }
+    .btn-hero {
+        line-height: 12px;
+        font-size: 10px;
+        padding: 7px 12px;
+    }
+    .price {
+        font-size: 14px;
+        line-height: 15px;
+        margin: 5px 9px 0 12px;
+    }
+    .price-span {
+        font-size: 13px;
+        line-height: 16px;
+    }
+    .burger-menu{
+        font-size: 18px;
+    }
+    .cart-before {
+        position: absolute;
+        right: 35px;
+        top: -24px;
+    }
+}
+@media (max-width: 480px){
+    .container{
+        max-width: 360px;
+    }
+    .col-6{
+        width: 100%;
+    }
+    .mobile-img {
+        width: 53%;
+    }
+    .logo {
+        width: 80px;
+    }
+
+    .hero-info {
+        line-height: 0;
+        font-size: 7px;
+    }
+    .hero {
+        padding: 16px 0 5px;
+    }
+    .span-title {
+        font-size: 16px;
+        line-height: 15px;
+    }
+    .title-hero {
+        font-size: 16px;
+        line-height: 23px;
+    }
+    .desc-hero {
+        font-size: 9px;
+        line-height: 14px;
+    }
+    .btn-hero {
+        line-height: 7px;
+        font-size: 6px;
+        padding: 7px 7px;
+    }
+    .price {
+        font-size: 9px;
+        line-height: 10px;
+        margin: 5px 9px 0 5px;
+    }
+    .price-span {
+        font-size: 8px;
+        line-height: 9px;
+    }
+    .product-title {
+        font-size: 16px;
+    }
+    .product-desc {
+        font-size: 9px;
+        line-height: 12px;
+        margin: -6px 0 2px;
+    }
+    .product-price {
+        font-size: 8px;
+    }
+    .product-price-span {
+        font-size: 7px;
+    }
+    .cart-before {
+        right: 64px;
+    }
+    .icons{
+        font-size: 10px;
+    }
+    img {
+        width: 125px;
+    }
+    .image {
+        padding: 13px 0 20px 0;
+    }
+    .image img {
+        width: 98px;
+    }
+    .burger-menu {
+        margin-left: 202px;
+    }
+
+}
